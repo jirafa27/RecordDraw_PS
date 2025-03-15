@@ -57,7 +57,7 @@ PORT=4455
 ### Для компиляции в exe следует выполнит команду
 
 ```sh
-pyinstaller --onefile --noconsole --icon=icon.ico window_recorder.py
+pyinstaller --onefile --noconsole window_recorder.py
 ```
 
 По необходимости можно добавить exe в планировщик задач Windows с запуском каждый раз при запуске системы
